@@ -1,0 +1,20 @@
+.button{
+    width: 300px;
+    height: 40px;
+    margin: 30px auto;
+    color: @color;
+
+    span{
+        font-size: 20px;
+    }
+}
+ 
+:global{
+    .globalButton{
+        color: aqua;
+    }
+}
+
+:local(.localButton){
+    border-radius: 10px;
+}
